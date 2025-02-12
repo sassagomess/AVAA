@@ -1,5 +1,8 @@
 # AVAA
-github
-git remote add origin https://github.com/sassagomess/AVAA.git
-git branch -M main
-git push -u origin main
+
+git init
+git config --global user.name "sassagomess"
+git config --global user.email "sabrinaaribeiro2020@gmail.com"
+echo "# Meu Projeto" >> README.md
+git add README.md
+git commit -m "Adiciona o arquivo README.md"
